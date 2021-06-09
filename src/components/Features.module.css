@@ -1,0 +1,17 @@
+.features {
+  padding: 50px 0;
+  background-color:#eef5fc;
+  text-align: center;
+  background-image: url('../assests/images/Abract01.png');
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  padding: 100px 0 50px 0;
+}
+
+Card.Title {
+  font-weight: bold;
+  font-size: 400px;
+}
