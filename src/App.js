@@ -3,6 +3,7 @@ import './App.css';
 import CarouselContainer from './components/CarouselContainer';
 import CardContainer from './components/CardContainer';
 import Features from './components/Features';
+import Faq from './components/Faq';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <CarouselContainer />
       <CardContainer />
       <Features />
+      <Faq />
     </>
   );
 }
