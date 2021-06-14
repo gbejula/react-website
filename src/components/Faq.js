@@ -6,9 +6,11 @@ import './Faq.module.css';
 const Faq = () => {
   return (
     <div>
-      <h2>Frequently Asked Questions</h2>
+      <h2 md={3}>Frequently Asked Questions</h2>
       <Container>
-        <Accordion defaultActiveKey='0' className='text-center w-75 mx-auto'>
+        <Accordion
+          defaultActiveKey='0'
+          className='text-center w-75 mx-auto mb-5'>
           <Card>
             <Accordion.Toggle as={Card.Header} eventKey='0'>
               How soon will I get my clothes once it is dropped?

@@ -11,7 +11,7 @@ const CardContainer = () => {
     <div>
       <h2>Our Collection</h2>
       <Container>
-        <CardDeck>
+        <CardDeck className='mb-3'>
           <Card>
             <Card.Img variant='top' src={image4} />
             <Card.Body>
@@ -22,9 +22,6 @@ const CardContainer = () => {
                 longer.
               </Card.Text>
             </Card.Body>
-            <Card.Footer>
-              <small className='text-muted'>Last updated 3 mins ago</small>
-            </Card.Footer>
           </Card>
           <Card>
             <Card.Img variant='top' src={image5} />
@@ -35,9 +32,6 @@ const CardContainer = () => {
                 additional content.{' '}
               </Card.Text>
             </Card.Body>
-            <Card.Footer>
-              <small className='text-muted'>Last updated 3 mins ago</small>
-            </Card.Footer>
           </Card>
           <Card>
             <Card.Img variant='top' src={image6} />
@@ -49,9 +43,6 @@ const CardContainer = () => {
                 than the first to show that equal height action.
               </Card.Text>
             </Card.Body>
-            <Card.Footer>
-              <small className='text-muted'>Last updated 3 mins ago</small>
-            </Card.Footer>
           </Card>
         </CardDeck>
       </Container>

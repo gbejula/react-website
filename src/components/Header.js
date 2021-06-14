@@ -6,12 +6,12 @@ const Header = () => {
     <>
       <Navbar collapseOnSelect fixed='top' expand='lg' bg='dark' variant='dark'>
         <Container>
-          <Navbar.Brand href='#home'>Delicious Meals</Navbar.Brand>
+          <Navbar.Brand href='#home'>Fashion Outfits</Navbar.Brand>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse id='responsive-navbar-nav'>
             <Nav className='ml-auto'>
-              <Nav.Link href='#features'>Features</Nav.Link>
-              <Nav.Link href='#pricing'>About</Nav.Link>
+              <Nav.Link href='#features'>Services</Nav.Link>
+              <Nav.Link href='#pricing'>About Us</Nav.Link>
             </Nav>
             <Button variant='primary mr-2'>Login</Button>
             <Button variant='secondary'>Sign Up</Button>
