@@ -4,6 +4,7 @@ import CarouselContainer from './components/CarouselContainer';
 import CardContainer from './components/CardContainer';
 import Features from './components/Features';
 import Faq from './components/Faq';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <CardContainer />
       <Features />
       <Faq />
+      <Contact />
     </>
   );
 }

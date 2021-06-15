@@ -6,7 +6,7 @@ import './Faq.module.css';
 const Faq = () => {
   return (
     <div>
-      <h2 md={3}>Frequently Asked Questions</h2>
+      <h2>Frequently Asked Questions</h2>
       <Container>
         <Accordion
           defaultActiveKey='0'
