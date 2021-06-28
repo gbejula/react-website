@@ -22,6 +22,7 @@ const Contact = () => {
               id=''
               cols='300'
               rows='10'
+              placeholder='message'
               className={classes.area}></Form.Control>
           </Form.Group>
           <Button variant='primary'>Submit</Button>

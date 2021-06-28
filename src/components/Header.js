@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -16,7 +17,9 @@ const Header = () => {
                 About Us
               </Nav.Link>
             </Nav>
-            <Button variant='primary mr-2'>Login</Button>
+            <Button variant='primary mr-2'>
+              <Link to='/login'>Login</Link>
+            </Button>
             <Button variant='secondary'>Sign Up</Button>
           </Navbar.Collapse>
         </Container>

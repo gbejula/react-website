@@ -1,21 +1,20 @@
 import Header from './components/Header';
 import './App.css';
-import CarouselContainer from './components/CarouselContainer';
-import CardContainer from './components/CardContainer';
-import Features from './components/Features';
-import Faq from './components/Faq';
-import Contact from './components/Contact';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Footer from './components/Footer';
+import Login from './components/Login';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <>
+    <Router>
       <Header />
-      <CarouselContainer />
-      <CardContainer />
-      <Features />
-      <Faq />
-      <Contact />
-    </>
+      <main>
+        <Route path='/' component={Home} />
+        <Route path='/login' component={Login} />
+      </main>
+      <Footer />
+    </Router>
   );
 }
 
